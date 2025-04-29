@@ -7,7 +7,6 @@ from contextlib import asynccontextmanager
 import numpy as np
 from typing  import Optional
 
-
 user_cache = TTLCache(maxsize=1000, ttl=300)  
 
 
@@ -58,4 +57,3 @@ async def get_recommendations(username: str, limit: Optional[int] = 3):
     user_cache[cache_key] = recommendations
 
     return recommendations
-

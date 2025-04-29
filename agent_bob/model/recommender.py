@@ -3,7 +3,6 @@ from .embedder import create_user_embeddings, compute_similarity, generate_recom
 import pandas as pd
 
 
-
 # Function to recommend bottles
 def recommend_bottles(user_data,baxus_embeddings,baxus_data,limit):
     # Load static 501 bottles data
