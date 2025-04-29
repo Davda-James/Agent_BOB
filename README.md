@@ -45,7 +45,44 @@
 On requesting to **https://baxus-7z5a.onrender.com/recommend/user/carriebaxus** I got response as below:
 
 ```json
-
+[
+  {
+    "name": "Jim Beam Black 7 Year",
+    "proof": 90,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "popularity": 100026,
+    "image_url": "https://d1w35me0y6a2bb.cloudfront.net/newproducts/3a40485b-c05d-45ae-bea3-201d0333f373.jpg",
+    "avg_msrp": 25,
+    "shelf_price": 26.49,
+    "ranking": 489,
+    "reason": "Similar spirit type: Bourbon | Popular among users"
+  },
+  {
+    "name": "Old Forester Birthday Bourbon 2024",
+    "proof": 107,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "popularity": 100048,
+    "image_url": "https://d1w35me0y6a2bb.cloudfront.net/newproducts/48d649f8-c68c-4247-838e-4bbf721b90b8",
+    "avg_msrp": 199.99,
+    "shelf_price": 1049.5,
+    "ranking": 485,
+    "reason": "Similar spirit type: Bourbon | Popular among users"
+  },
+  {
+    "name": "Larceny Barrel Proof - Batch B524",
+    "proof": 125.4,
+    "abv": 62.7,
+    "spirit_type": "Bourbon",
+    "popularity": 100032,
+    "image_url": "https://d1w35me0y6a2bb.cloudfront.net/newproducts/6ebb98ba-6eec-4229-b98b-a70a6b698b7f",
+    "avg_msrp": 59.95,
+    "shelf_price": 62.46,
+    "ranking": 460,
+    "reason": "Similar spirit type: Bourbon | Close to your average price ($67.96) | Popular among users | Highly rated"
+  }
+]
 ```
 
 ### Setting up project locally
