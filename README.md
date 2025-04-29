@@ -15,7 +15,7 @@
 
 ## 📚 Table of Contents
 - [Pipeline](#pipeline) 
-- (Try API)[Try API]
+- [Try API](#try-aPI)
 - [Demo](#demo)
   - [DemoVideo](#demo-video)
   - [Demo1](#demo1)
