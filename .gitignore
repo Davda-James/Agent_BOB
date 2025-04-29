@@ -1,0 +1,26 @@
+# fill this 
+# add all common structure of .gitignore
+
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.egg
+*.log
+*.DS_Store
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+*.coverage
+*.coverage.*
+*.mypy_cache/
+*.pytest_cache/
+*.tox/
+*.hypothesis/
+
