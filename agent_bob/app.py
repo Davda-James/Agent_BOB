@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
 from agent_bob.model.fetcher import get_user_data
 from agent_bob.model.recommender import recommend_bottles
 from agent_bob.model.embedder import load_bottles_data, initialize_vectorizers, create_embeddings, load_baxus_embeddings, embeddings_exist, BAXUS_EMBEDDINGS_PATH
@@ -31,6 +31,9 @@ async def lifespan(app:FastAPI):
 
 app = FastAPI(lifespan=lifespan)
     
+@app.head("/")
+def system_check():
+    return Response(status_code=200)    
 
 @app.get("/")
 def server_test():
